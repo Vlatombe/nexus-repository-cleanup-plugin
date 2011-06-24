@@ -24,7 +24,7 @@ public class RepositoryCleanupTaskDescriptor extends AbstractScheduledTaskDescri
 	private final RepoOrGroupComboFormField repoField = new RepoOrGroupComboFormField(REPO_OR_GROUP_FIELD_ID, true);
 	private final StringTextFormField patternField = new StringTextFormField(PATTERN_URL_FIELD_ID, "Regular Expression", "Regular Expression to find artifacts.", true);
 	private final StringTextFormField age = new StringTextFormField(AGE_URL_FIELD_ID, "Artifact retention (days)", "The job will purge all artifacts older then the entered number of days.", true);
-	private final CheckboxFormField preview = new CheckboxFormField(PREVIEW_FIELD_ID, "preview", "Tick to preview the result (see logs)", true);
+	private final CheckboxFormField preview = new CheckboxFormField(PREVIEW_FIELD_ID, "Preview mode", "Tick to preview the result (see logs)", true);
 
 	public String getId() {
 		return ID;
