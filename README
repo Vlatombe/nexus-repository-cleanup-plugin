@@ -1,0 +1,6 @@
+This plugin is based on the work done by Jeff Blaisdell.
+
+It contributes a new scheduled tasks that allows to delete artifacts based on 
+
+See original post :
+http://maven.40175.n5.nabble.com/Plugin-to-utilize-Rest-Api-How-to-handle-authorization-td4414996.html
